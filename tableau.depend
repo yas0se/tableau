@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1710172479 source:c:\users\mesta\documents\c\tableau\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+
