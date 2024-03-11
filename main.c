@@ -48,7 +48,7 @@ void function_4(){
     scanf("%c", &x);
     for(int i=0;i<1000;i++){
         if(tab[i]==x){
-            printf("la lettere est présente \n");
+            printf("la lettere est prÃ©sente \n");
             break;
         }
     }
@@ -99,7 +99,7 @@ void function_6(){
         tab[y]=tab[i];
         tab[i]=x;
     }
-    printf("______________________________________________\n");
+    printf("____________*************************************____________\n");
     for(int i=0; i<6;i++){
         printf("tab[%d]=%d \n", i,tab[i]);
     }
@@ -110,6 +110,11 @@ void function_6(){
 
 int main()
 {
+    function_1();
+    function_2();
+    function_3();
+    function_4();
+    function_5();
     function_6();
     return 0;
 }
